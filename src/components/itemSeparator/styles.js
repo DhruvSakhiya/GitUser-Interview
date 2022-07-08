@@ -1,7 +1,8 @@
 import { StyleSheet } from 'react-native'
+import { H } from '../../theme'
 
 export default StyleSheet.create({
-    container: {
-        flex: 1
+    heightContainer: {
+        height: H(10)
     }
 })
